@@ -1,4 +1,3 @@
-// Пример данных:
 const os = require("os");
 
 const object = {
@@ -14,14 +13,6 @@ const object = {
     },
   ],
 };
-// Пример запуска программы:
-// npm start
-// 1
-// ├── 2
-// │   └── 3
-// │   └── 4
-// └── 5
-//     └── 6
 
 const getInnerData = (data) => {
   let result = "";
